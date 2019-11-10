@@ -5,6 +5,7 @@
 *         ianhuang@tencent.com
 *         chriskzhou@tencent.com
 */
+#define __USE_OPENCL__
 #ifdef __USE_OPENCL__
 #pragma OPENCL EXTENSION cl_khr_fp64 : enable
 
