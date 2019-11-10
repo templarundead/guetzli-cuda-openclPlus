@@ -45,7 +45,7 @@ filter "action:vs*"
     defines { "__USE_OPENCL__", "__SUPPORT_FULL_JPEG__" }
       linkoptions { "`pkg-config --libs libpng || libpng-config --ldflags`" }
       buildoptions { "`pkg-config --cflags libpng || libpng-config --cflags`" }
-      links { "**" }
+    links { "OpenCL"}
     filter "action:vs*"
       links { "shlwapi" }
     filter {}
